@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "Full-Stack Bootcamp",
+    title: "Welcome to Gatsby with Contentful",
     author: "Ethan Gai",
   },
   plugins: [
@@ -15,8 +15,8 @@ module.exports = {
     {
       resolve: "gatsby-source-contentful",
       options: {
-        spaceId: process.env.GATSBY_CONTENTFUL_SPACE_ID,
-        accessToken: process.env.GATSBY_CONTENTFUL_ACCESS_TOKEN,
+        spaceId: "02f2ojkw5o5l",
+        accessToken: "rngvfKFDieA7Moz-mMQeeQprMrSBh823yZ1iOqKhbmA",
       },
     },
     "gatsby-plugin-sass",
